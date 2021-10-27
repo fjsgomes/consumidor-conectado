@@ -1,0 +1,1 @@
+Projeto sobre um site de notícias.
