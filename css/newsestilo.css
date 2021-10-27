@@ -1,0 +1,140 @@
+/*Layout*/
+
+html, body {
+	height: 100%	
+}
+
+body {
+	background: #cccccc;
+	/*background: #d3f2ed;*/	
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+/*-----------------------------------*/
+/*Estrutura de conteúdos*/
+
+#botoes a img {
+	padding: 10px 0px 20px 15px;
+}
+
+.fundo {
+	background: #eaeef1;
+}
+
+.fundo1 {
+	background: white;
+}
+
+
+
+
+/*-----------------------------------*/
+/*Estrutura de conteúdos 2 colunas*/
+
+.linha {
+	border-top: 1px solid black;
+}
+
+.imagem-menor {
+	padding: 20px 0px 0px 0px;
+}
+
+.texto-menor {
+	padding: 7px 0px 0px 0px;
+}
+
+/*-----------------------------------*/
+/*Links*/
+
+a.titulo:link, a.titulo:visited {
+	color: black;
+	text-decoration: none;
+}
+
+/*-----------------------------------*/
+/*Rodapé*/
+
+footer p {
+	color: white;
+	text-align: center;
+	font-size: 0.95em;
+	padding: 20px 0px;
+}
+
+footer a {
+	margin-left: 30px;
+}
+
+footer a img {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.fundo-rodape {
+	background: black;
+}
+
+/*-----------------------------------*/
+/*Tipografia*/
+
+h3 {
+	font-size: 1.4em;
+	padding: 10px 15px 0px 15px;
+	text-align: center;
+}
+
+p {
+	font-size: 0.95em;
+	padding: 10px 15px 0px 15px;
+	text-align: justify;
+}
+
+.mt-n1 {
+  margin-top: -0.25rem !important;
+}
+
+/*-----------------------------------*/
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) {
+	.sem-linha {
+		border-top: none;
+	}
+
+	.imagem-menor {
+	padding: 0px 0px 0px 0px;
+	}
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	h3 {
+	font-size: 1em;
+	}
+	
+	p {
+		font-size: 0.9em;
+	}
+}
+
+/* Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h3 {
+	font-size: 1.1em;
+	}
+
+	p {
+		font-size: 0.9em;
+	}
+}
+
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	h3 {
+	font-size: 1.2em;
+	}
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) {
+	
+}

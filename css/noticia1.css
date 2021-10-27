@@ -1,0 +1,198 @@
+/*Layout*/
+
+html, body {
+	height: 100%
+	border: 1px solid red;
+}
+
+body {
+	background: #E6E6E6;
+	/*background: #d3f2ed;*/	
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+/*-----------------------------------*/
+/*Barra de navegação*/
+.navbar-nav .nav-link {
+	background: none;
+	color: black;	
+}
+
+.nav-link:hover {
+	background: #00a0b5;
+	color: white;
+}
+
+.navbar-nav .active a {
+	background: #00a0b5;
+	color: white;
+}
+
+/*-----------------------------------*/
+/*Estrutura de conteúdos*/
+
+#cor-fundo {
+	background: white;
+}
+
+#botoes a img {
+	padding: 10px 0px 20px 15px;
+}
+
+.fundo {
+	background: #eaeef1;
+}
+
+.borda {
+	border-bottom: 1px solid gray;	
+}
+
+.borda1 {
+	border-left: 1px solid gray;
+}
+
+.borda2 {
+	border-right: 1px solid gray;
+}
+
+.legenda {
+	
+}
+
+/*-----------------------------------*/
+/*Estrutura de conteúdo lateral direita*/
+
+.propaganda {
+	padding: 0 0 0 10px;
+}
+
+
+/*-----------------------------------*/
+/*Imagens*/
+.img {
+	padding-bottom: 15px;
+}
+
+/*-----------------------------------*/
+/*Links*/
+
+a.titulo:link, a.titulo:visited {
+	color: black;
+	text-decoration: none;
+}
+
+/*-----------------------------------*/
+/*Rodapé*/
+
+footer .navbar-nav {
+	padding: 13px 0px 0px 0px;
+	text-align: center;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.9em;
+}
+
+footer .navbar-nav a:hover {
+	color: #00a0b5;
+	text-decoration: none;
+}
+
+footer a img {
+	/*margin-left: 20px;*/
+	padding: 20px 0 10px 0;
+}
+
+footer p {
+	/*border: 1px solid red;*/
+	color: white;	
+	font-size: 0.95em;
+	padding: 0px 0px 0px 0px;
+}
+
+.fundo-rodape {
+	background: black;
+}
+
+/*-----------------------------------*/
+/*Tipografia*/
+
+h2 {
+	font-size: 1.7em;
+	padding: 10px 15px 5px 15px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.4em;
+	padding: 10px 15px 5px 15px;
+	text-align: center;
+}
+
+h4 {
+	font-size: 1.2em;
+	padding: 10px 15px 5px 15px;
+	text-align: center;
+}
+
+p {
+	font-size: 0.95em;
+	padding: 10px 15px 0px 15px;
+	text-align: justify;
+}
+
+
+/*-----------------------------------*/
+/*Negrito em CSS: 'font-weight: bold;'*/
+
+
+
+
+/*-----------------------------------*/
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) {
+	h2 {
+		font-size: 1.4em;
+		padding: 10px 15px 0px 15px;
+		text-align: center;
+	}
+
+	h3 {
+		font-size: 1.2em;
+		padding: 10px 15px 0px 15px;
+		text-align: center;
+	}
+
+	.borda {
+		border-bottom: none;
+	}
+
+	.borda1 {
+		border-left: none;	
+	}
+
+	.borda2 {
+		border-right: none;
+	}
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+}
+
+/* Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) {
+	
+}
