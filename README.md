@@ -1,1 +1,1 @@
-Projeto sobre um site de notícias.
+Projeto sobre um site de notícias, feito com Bootstrap 4.
