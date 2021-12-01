@@ -1,1 +1,1 @@
-Projeto sobre um site de notícias, feito com Bootstrap 4.
+Projeto sobre um site de notícias, feito com HTML 5, CSS 3 e Bootstrap 4.
